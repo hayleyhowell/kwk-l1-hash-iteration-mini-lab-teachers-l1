@@ -32,7 +32,7 @@ def iterate_through_keys
   upcased_cities = []
   summer_olympics = add_a_key_value_pair
   summer_olympics.each_key do |city|
-    cities.insert(city.upcase)
+    upcased_cities.insert(city.upcase)
   end 
   puts upcased_cities
 end
